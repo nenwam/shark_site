@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500&display=swap');
+
+html, body
+{
+    margin: 0px;
+}
+
+#container
+{
+    width: 100%;
+}
+
+nav
+{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    background-color: #158CC0;
+    position: fixed;
+    padding: 0.85% 0px;
+    top: 0;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+#heading
+{
+    margin-bottom: 5%;
+}
+
+main
+{
+    margin-top: 8%;
+}
+
+
+main h1, h2, h3
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+main h1
+{
+    font-size: 3.5em;
+}
+
+main p, ul
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#shark_sem
+{
+    width: 90%;
+    text-align: center;
+    font-size: 6em;
+    background-image: url(meta/images/shark-attacks.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: bottom bottom;
+    background-attachment: fixed;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shark_sem p
+{
+    padding: 0px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 10px;
+}
+
+#left_right_column
+{
+    width: 80%;
+    margin: 10% auto;
+    margin-bottom: 15%;
+}
+
+#left
+{
+    float: left;
+    width: 42.5%;
+    padding-bottom: 5%;
+}
+
+#right
+{
+    float: right;
+    width: 42.5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 615px)
+{
+    #left
+    {
+        float: left;
+        width: 95%;
+        padding-bottom: 5%;
+    }
+
+    #right
+    {
+        width: 95%;
+        padding-bottom: 5%;
+        clear: both;
+        float: left;
+    }
+}
+
+#left, #right p
+{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#three_column
+{
+    display: table;
+    clear: both;
+    width: 79%;
+    margin: 5% auto;
+    background-color: #158CC0;
+    height: 30%;
+}
+
+table-cell
+{
+    font-style: 'Oswald', sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+#column
+{
+    margin: 5px;
+    padding: 10px;
+}
+
+li
+{
+    list-style: none;
+}
+
+#video
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+}
+
+#video video
+{
+    width: 100%
+}
+
+#footer
+{
+    width: 100%;
+    text-align: center;
+    color: ivory;
+    font-size: 1.5em;
+    background-color: #158CC0;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    margin-top: 15%;
+}
+
